@@ -1,5 +1,6 @@
 import React from "react";
-import "./Navbar.css";
+import "./Navbar.scss";
+// import ReactDOM from 'react-dom/client';
 
 export default function Navbar() {
   return (

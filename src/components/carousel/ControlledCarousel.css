@@ -1,7 +1,4 @@
-.banner img {
-  width: 100vw;
-  height: 80vh;
-}
+
 .banner {
   position: relative;
 }
@@ -25,4 +22,8 @@
 }
 .heading-para{
     margin-top:20px
+}
+.banner img {
+  width: 100vw;
+  height: 80vh;
 }

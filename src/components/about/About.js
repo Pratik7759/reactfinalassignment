@@ -1,6 +1,6 @@
 import React from "react";
 import image from "../images/screenshotImage1.jpg";
-import "./About.css";
+import "./About.scss";
 
 export default function About() {
   return (
@@ -19,7 +19,7 @@ export default function About() {
       <div className="about-para-img-box">
         <div className="about-para">
           <p>
-            <h2>DISTRACTED BY THE READABLE</h2>
+            <h2 className="abc">DISTRACTED BY THE READABLE</h2>
             Contrary to popular belief, Lorem Ipsum is not simply random text.
             It has roots in a piece of classical Latin literature from 45 BC,
             making it over 2000 years old. Richard McClintock, a Latin professor

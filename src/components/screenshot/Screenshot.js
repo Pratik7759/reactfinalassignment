@@ -1,5 +1,5 @@
 import React from "react";
-import "./Screenshot.css";
+import "./Screenshot.scss";
 import image from "../images/screenshotImage2.jpg";
 
 export default function Screenshot() {
@@ -16,11 +16,11 @@ export default function Screenshot() {
           which Bootstrap styles
         </p>
       </div>
-      <div className="about-para-img-box">
+      {/* <div className="screenshot-para-img-box"> */}
         <div className="screenshot-image">
           <img src={image} />
         </div>
-      </div>
+      {/* </div> */}
       <div>
         <button className="screenshot-btn">Download Now</button>
       </div>
